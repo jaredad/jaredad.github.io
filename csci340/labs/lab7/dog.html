@@ -6,7 +6,6 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
       <style>
 
          .img-container {
@@ -28,16 +27,6 @@
          margin-left: 12px;
          }
 
-         h1,h6 {
-           font-family: 'Inconsolata', monospace;
-         }
-
-         p {
-           font-family: 'VT323', monospace;
-           margin-left: 100px;
-           margin-top: 10px;
-         }
-
       </style>
    </head>
    <body>
@@ -52,11 +41,11 @@
                <ul class="navbar-nav ml-auto">
                  <li class="nav-item active">
                     <a class="nav-link" href="index.html">Poll
-                    <span class="sr-only">(current)</span>
                     </a>
                  </li>
                  <li class="nav-item">
                     <a class="nav-link" href="dog.html">Random Dogs</a>
+                    <span class="sr-only">(current)</span>
                  </li>
                  <li class="nav-item">
                     <a class="nav-link" href="cat.html">Random Cats</a>
@@ -69,8 +58,8 @@
       <div class="container">
          <div class="row">
             <div class="col-lg-12 text-center">
-               <h1 class="mt-5">Which one is cuter, Doggo or Kitty?</h1>
-               <h6 class="lead">Also check out our Random Dog and Random Cat Pages</h6>
+               <h1 class="mt-5">Here's some random pictures of cute dogs!</h1>
+               <p class="lead">You're welcome</p>
                </ul>
             </div>
          </div>
@@ -80,13 +69,8 @@
       <button type="button" class="btn" id = "2" title = "2">Download Last Clicked</button>
       </span>
       <span class="img-container">
-      <img id="change-image" class="img" src="https://jaredad.github.io/csci340/labs/lab7/dog.jpg" alt="Black Image",width = 300px height=250px />
-      <img id="change-image-2" class = "img" src="https://jaredad.github.io/csci340/labs/lab7/cat.jpg" alt="Black Image", width = 300px height=250px/>
+        <img id="change-image" class="img" src="https://jaredad.github.io/csci340/labs/lab7/dog.jpg" alt="Black Image",width = 300px height=250px />
       </span>
-      <div class = "count">
-        <p class="dog">Liked Dogs = 0</p>
-        <p class="cat">Liked Cats = 0</p>
-      </div>
    </body>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
    <script type="text/javascript" src="https://jaredad.github.io/csci340/labs/lab7/script.js"></script>
